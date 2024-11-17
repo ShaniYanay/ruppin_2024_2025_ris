@@ -5,7 +5,7 @@ import seaborn as sns
 import os
 
 data_file_dir = os.getcwd().replace("trial", "data_files")
-data_file_path = os.path.join(data_file_dir, "mall_sales_data.csv")
+data_file_path = os.path.join(data_file_dir, "mall_sales_data_mock.csv")
 
 
 def generate_normalized_sales_heatmap(csv_path):
